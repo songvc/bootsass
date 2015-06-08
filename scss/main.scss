@@ -1,4 +1,3 @@
-@import "compass";
 @import "bootstrap";
 
 body{
@@ -15,7 +14,7 @@ body{
 	}
 	.site-header{
 		@include make-row();
-		color: white;
+		color: red;
 		a{
 			color: inherit;
 		}
